@@ -1,0 +1,13 @@
+HXOut1, HXOut2 -> (3) replaced by (2)
+HXIn1, HXIn2 -> (2) replaced by (3)
+
+Compressor -> Changed inputs to HXOut1 or HXOut2
+HXIn1 -> Changed inputs from valve to compressor
+Valve -> Changed inputs from condenser1 or condenser2 to evaporator1 or evaporator2
+HXOut1 -> Changed inputs from compressor to valve
+
+Controller -> Changed the equation for the error (- the initial equation)
+
+Run file - Changed the order of the components
+
+Change signs of the powers of evaporator and condensers
